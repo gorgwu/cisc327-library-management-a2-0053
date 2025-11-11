@@ -1,7 +1,7 @@
 # python -m pytest tests/R7_test.py
 
 import pytest
-from library_service import get_patron_status_report
+from services.library_service import get_patron_status_report
 
 def test_report_currently_borrowed():
     """Test report should include list of currently borrowed books with due dates."""

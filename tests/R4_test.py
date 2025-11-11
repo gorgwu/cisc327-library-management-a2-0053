@@ -1,7 +1,7 @@
 # python -m pytest tests/R4_test.py
 
 import pytest
-from library_service import return_book_by_patron
+from services.library_service import return_book_by_patron
 
 VALID_PATRON_ID = "123456"
 VALID_BOOK_ID = 1

@@ -1,7 +1,7 @@
 # python -m pytest tests/R5_test.py
 
 import pytest
-from library_service import calculate_late_fee_for_book
+from services.library_service import calculate_late_fee_for_book
 
 VALID_PATRON_ID = "123456"
 VALID_BOOK_ID = 1

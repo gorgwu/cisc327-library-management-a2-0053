@@ -1,7 +1,7 @@
 # python -m pytest tests/R2_test.py
 
 import pytest
-from library_service import get_all_books, add_book_to_catalog
+from services.library_service import get_all_books, add_book_to_catalog
 
 def test_catalog_returns_books():
     """Test that get_all_books() returns all books in the catalog."""
